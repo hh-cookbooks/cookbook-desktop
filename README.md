@@ -82,8 +82,9 @@ License and Author
 
 Authors:
 
-* Roberto C. Morano <rcmorano@emergya.com>
 * Juanje Ojeda <juanje.ojeda@gmail.com>
+* Roberto C. Morano <rcmorano@emergya.com>
+* Alfonso de Cala <alfonso.cala@juntadeandalucia.es>
 
 Copyright 2011-2012 Junta de Andalucía  
 Copyright 2012 Juanje Ojeda <juanje.ojeda@gmail.com>
