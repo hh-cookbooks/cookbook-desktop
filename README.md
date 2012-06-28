@@ -15,6 +15,8 @@ This LWRP born as a need for a project called [GECOS](http://forja.guadalinex.or
 by the **Junta de Andalucía**, a local government from the lovely region of Spain:
 Andalusia.
 
+[![Build Status](https://secure.travis-ci.org/juanje/cookbook-desktop.png)](http://travis-ci.org/juanje/cookbook-desktop)
+
 
 Requirements
 ============
