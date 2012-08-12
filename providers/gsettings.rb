@@ -25,5 +25,8 @@ action :unset do
 end
 
 def gsettings
-  "xvfb-run -w 0 gsettings"
+  # If can connect to the X display, we can probably run without xvfb
+  # FIXME: we need to chack that our USER can communicati to dconf/settings
+  # this makes background changes, etc immediate rather than requiring a relogin
+  ENV.has_key?('DISPLAY') ? "gsettings" : "xvfb-run -w 0 gsettings"
 end
